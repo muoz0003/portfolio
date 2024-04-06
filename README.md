@@ -36,3 +36,22 @@ Developing this portfolio taught me several valuable lessons:
 
 ## Conclusion
 This project not only enhanced my technical skills but also deepened my understanding of the dynamic nature of web design and user interaction. I look forward to applying these insights to future projects.
+
+## Images & Copyrights
+All images used in this portfolio are designed by me, David Muñoz Jensen, the artworks displayed are pieces that I made since the first semester, fall 2023, and I own the copyrights, also Nakamaprints [https://nakamaprints.com/](https://nakamaprints.com/) is my own brand and own the rights to use the arkwork.
+
+## Scripts Used
+
+- **Bootstrap** - General use for styles: [https://getbootstrap.com/](https://getbootstrap.com/)
+- **SwiperJS** - For some icons and gallery: [https://swiperjs.com/](https://swiperjs.com/)
+- **GLightbox** - For gallery: [https://biati-digital.github.io/glightbox/](https://biati-digital.github.io/glightbox/)
+- **Isotope** - For filter in gallery: [https://isotope.metafizzy.co/](https://isotope.metafizzy.co/)
+- **ScrollCue** - For scroll animations fade-in: [https://prjct-samwest.github.io/scrollCue/](https://prjct-samwest.github.io/scrollCue/)
+- **Improved Vanilla JavaScript Counter** - For animations number counter: [https://code-maven.com/improved-vanilla-javascript-counter](https://code-maven.com/improved-vanilla-javascript-counter)
+
+## Fonts Used
+
+- **Phosphor Icons** - Icons: [https://phosphoricons.com](https://phosphoricons.com)
+- **Font Awesome** - Fonts: [https://fontawesome.com/](https://fontawesome.com/)
+- **Google Fonts** - Fonts (Inter & Poppins): [https://fonts.google.com/](https://fonts.google.com/)
+
