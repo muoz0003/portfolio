@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Muñoz Jensen - Artist Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="img/general/logo_blanco_shadow-01.png">
+    <!-- PLUGIN CSS START -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="css/glightbox.min.css">
+    <link rel="stylesheet" href="css/phosphor.min.css">
+    <link rel="stylesheet" href="css/scrollCue.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ======================================================================= -->
+    <!--                          RIGHT CLICK SCRIPT                             -->
+    <!-- ======================================================================= -->
+
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+          e.preventDefault();
+        });
+      </script>
+      <!-- not sure if its the best location to put the script (temp solution 06/4/2024) -->
+    <!-- ======================================================================= -->
+    <!--                       RIGHT CLICK SCRIPT END                            -->
+    <!-- ======================================================================= -->
+
+    <!-- ======================================================================= -->
+    <!--                             PRELOADER START                             -->
+    <!-- ======================================================================= -->
+    <div class="preloader">
+        <div class="scene">
+            <div class="cube-wrapper">
+                <div class="cube">
+                    <div class="cube-faces">
+                        <div class="cube-face shadow"></div>
+                        <div class="cube-face bottom"></div>
+                        <div class="cube-face top"></div>
+                        <div class="cube-face left"></div>
+                        <div class="cube-face right"></div>
+                        <div class="cube-face back"></div>
+                        <div class="cube-face front"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ======================================================================= -->
+    <!--                              PRELOADER END                              -->
+    <!-- ======================================================================= -->
+
+    <!-- ======================================================================= -->
+    <!--                              HEADER START                               -->
+    <!-- ======================================================================= -->
+    <header class="nav_header art_header">
+        <!-- ======================================================================= -->
+        <!--                            NAVIGATION START                             -->
+        <!-- ======================================================================= -->
+        <nav class="rdn_nav">
+            <div class="container_nav">
+                <div class="row align-items-center">
+                    <div class="col-6 col-md-3">
+                        <a class="logo_nav" href="index.html">
+                            <img src="img/general/logo_blanco_shadow-01.png" alt="logo">
+                        </a>
+                    </div>
+                    <!-- col-md-3 -->
+
+                    <div class="col-md-6 d-none d-lg-block">
+                        <ul class="nav_list list-unstyled smoothscroll">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#works">Works</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- col-md-6 -->
+
+                    <div class="col-md-3 d-none d-lg-block">
+                        <ul class="list-unstyled tr_social_list">
+                            <li>
+                                <a href="https://www.facebook.com/david.m.jensen3/"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/davidmuje3690/"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/david-munoz-28830b292/"><i class="fa-brands fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCnG947LC6z89m4nrlJvLexQ"><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- col-md-3 -->
+
+                    <div class="col-6 col-md-9 justify-content-end d-flex d-lg-none">
+                        <a class="mobile_menu_btn flex" href="#!">
+                            <i class="fa fa-bars text-white"></i>
+                        </a>
+
+                        <!-- ======================================================================= -->
+                        <!--                          offcanvas mobile menu                          -->
+                        <!-- ======================================================================= -->
+                        <div class="mobile_menu_container offcanvas offcanvas-start" tabindex="-1" data-bs-scroll="true"
+                            id="mobilemenu">
+                            <div class="offcanvas-header">
+                                <button class="close_mb" data-bs-dismiss="offcanvas" aria-label="Close">
+                                    <i class="ph ph-x"></i>
+                                </button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <a href="index.html" class="logo_mobile">
+                                    <img src="img/general/logo_blanco_shadow-01.png" alt="david_munoz_logotype">
+                                </a>
+
+                                <ul class="list-unstyled mobile_menu smoothscroll">
+                                    <li>
+                                        <a data-bs-dismiss="offcanvas" data-bs-target="#mobilemenu" href="#home">
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-bs-dismiss="offcanvas" data-bs-target="#mobilemenu" href="#about">
+                                            About
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-bs-dismiss="offcanvas" data-bs-target="#mobilemenu" href="#services">
+                                            Services
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-bs-dismiss="offcanvas" data-bs-target="#mobilemenu" href="#works">
+                                            Works
+                                        </a>
+                                    </li>
+                                  
+                                    <li>
+                                        <a data-bs-dismiss="offcanvas" data-bs-target="#mobilemenu" href="#contact">
+                                            Contact
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </div>
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </nav>
+      
+        <!-- ======================================================================= -->
+        <!--                             NAVIGATION END                              -->
+        <!-- ======================================================================= -->
+        <div class="cloned">
+            <div class="container cloned_nav"></div>
+        </div>
+    </header>
+    <!-- ======================================================================= -->
+    <!--                               HEADER END                                -->
+    <!-- ======================================================================= -->
+
+    <!-- ======================================================================= -->
+    <!--                               HOME START                                -->
+    <!-- ======================================================================= -->
+    <section id="home">
+        <!-- ======================================================================= -->
+        <!--                            HOME SLIDER START                            -->
+        <!-- ======================================================================= -->
+        <div class="swiper rdn_slider_bg art_slider_bg">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slider_content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 offset-lg-6">
+                                    <p class="slider_sub">Unleashing Creative Expression</p>
+                                    <h1>a Journey through Captivating Art.</h1>
+                                    <p>
+                                        Celebrate the power of art to transform, heal, and inspire, as each brushstroke
+                                        opens a door to new worlds waiting to be explored.
+                                    </p>
+
+                                    <span class="button_box">
+                                        <a href="#about" class="rdn_btn_slider">My info</a>
+                                        <a href="#contact" class="rdn_btn_slider">Contact Now</a> 
+                                        <!-- rdn_btn_slider_line changed to become more accesible acording to feedback -->
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slider_content -->
+                    <!-- add the PICTURE TAG WITH TWO SIZES for final -->
+                    <img class="slide_bg" src="img/header3.jpg" alt="slider">
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                </div>
+                <!-- swiper-slide -->
+
+                <div class="swiper-slide">
+                    <div class="slider_content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 offset-lg-6">
+                                    <p class="slider_sub">From Brushstrokes to Pixels</p>
+                                    <h1>Exploring the depths of imagination.</h1>
+                                    <p>
+                                        Celebrate the power of art to transform, heal, and inspire, as each brushstroke
+                                        opens a door to new worlds waiting to be explored.
+                                    </p>
+                                    <span class="button_box">
+                                        <a href="#about" class="rdn_btn_slider">My info</a>
+                                        <a href="#contact" class="rdn_btn_slider">Contact Now</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slider_content -->
+                    <img class="slide_bg" src="img/header2.jpg" alt="slider">
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                </div>
+                <!-- swiper-slide -->
+
+                <div class="swiper-slide">
+                    <div class="slider_content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 offset-lg-6">
+                                    <p class="slider_sub">a Symphony of colors and emotions</p>
+                                    <h1>The enchanting journey of creativity.</h1>
+                                    <p>
+                                        Celebrate the power of art to transform, heal, and inspire, as each brushstroke
+                                        opens a door to new worlds waiting to be explored.
+                                    </p>
+                                    <span class="button_box">
+                                        <a href="#about" class="rdn_btn_slider">My info</a>
+                                        <a href="#contact" class="rdn_btn_slider">Contact Now</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slider_content -->
+                    <img class="slide_bg" src="img/header7.jpg" alt="slider">
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                </div>
+                <!-- swiper-slide -->
+
+                <div class="swiper-slide">
+                    <div class="slider_content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 offset-lg-6">
+                                    <p class="slider_sub">A Voyage into Stunning Creativity</p>
+                                    <h1>An Odyssey of Enchanting Artistry</h1>
+                                    <p>
+                                        Embrace the transformative influence of art as it soothes, uplifts, and ignites the imagination, with each stroke unveiling a realm of undiscovered wonders.
+                                    </p>
+
+                                    <span class="button_box">
+                                        <a href="#about" class="rdn_btn_slider">My info</a>
+                                        <a href="#contact" class="rdn_btn_slider">Contact Now</a> 
+                                        <!-- rdn_btn_slider_line changed to become more accesible acording to feedback on focus groups (UX Design class) -->
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slider_content -->
+                    <!-- add the PICTURE TAG WITH TWO SIZES for final -->
+                    <img class="slide_bg" src="img/header4.jpg" alt="slider">
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                    <div class="slide_cover_line"></div><!-- /.slide_cover_line -->
+                </div>
+                <!-- swiper-slide -->
+            </div>
+            <!-- swiper-wrapper -->
+
+            <div class="rdn_bg_nav">
+                <a href="#!" class="prev_sl small-radius"><i class="ph ph-arrow-left"></i></a>
+                <a href="#!" class="next_sl small-radius"><i class="ph ph-arrow-right"></i></a>
+            </div>
+            <!-- swiper-nav-btn -->
+        </div>
+        <!-- swiper -->
+        <!-- ======================================================================= -->
+        <!--                             HOME SLIDER END                             -->
+        <!-- ======================================================================= -->
+    </section>
+    <!-- ======================================================================= -->
+    <!--                                HOME END                                 -->
+    <!-- ======================================================================= -->
+
+    <!-- ======================================================================= -->
+    <!--                               ABOUT START                               -->
+    <!-- ======================================================================= -->
+    <section id="about" class="content dark-bg bg-circle-dash">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <p class="subt_text" data-cue="slideInUp">Design, coffee, repeat.</p>
+                    <h2 class="rdn_title text-white" data-cue="slideInUp" data-delay="200">
+                        Exploring the world of graphic design, one project at a time.
+                    </h2>
+
+                    <p>
+                        Embarking on a journey through the vibrant and ever-evolving world of graphic design, I approach each project as an opportunity to push the boundaries of creativity and innovation. With a keen eye for detail and a passion for visual storytelling, I strive to bring unique perspectives to life, one project at a time. 
+                    </p>
+                    <p>
+                        My portfolio is a curated collection of my work, showcasing a diverse range of designs that reflect my commitment to excellence and my journey of exploration in the vast universe of graphic design. Join me as I navigate through this colorful and dynamic field, where each project is a new adventure and a chance to leave a lasting impression.
+                    </p>
+
+                    <div class="row stats_row">
+
+                        <div class="col-md-6 mb-30">
+                            <div class="stats_inner">
+                                <h3>
+                                    <span class="counter_text text-white" data-end="522">0</span>
+                                    <span class="count_icon">+</span>
+                                </h3>
+                                <p>Works done</p>
+                            </div><!-- /.stats_inner -->
+                        </div><!-- /.col-md-6 -->
+
+                        <div class="col-md-6 mb-30">
+                            <div class="stats_inner">
+                                <h3>
+                                    <span class="counter_text text-white" data-end="104">0</span>
+                                    <span class="count_icon">+</span>
+                                </h3>
+                                <p>Awards</p>
+                            </div><!-- /.stats_inner -->
+                        </div><!-- /.col-md-6 -->
+
+                        <div class="col-md-6 mb-30">
+                            <div class="stats_inner">
+                                <h3>
+                                    <span class="counter_text text-white" data-end="328">0</span>
+                                    <span class="count_icon">+</span>
+                                </h3>
+                                <p>Clients</p>
+                            </div><!-- /.stats_inner -->
+                        </div><!-- /.col-md-6 -->
+
+                        <div class="col-md-6 mb-30">
+                            <div class="stats_inner">
+                                <h3>
+                                    <span class="counter_text text-white" data-end="2400">0</span>
+                                    <span class="count_icon">+</span>
+                                </h3>
+                                <p>hours spent</p>
+                            </div><!-- /.stats_inner -->
+                        </div><!-- /.col-md-6 -->
+
+                    </div><!-- /.row -->
+                </div>
+                <!-- col-lg-6 -->
+
+                <div class="col-lg-5 img_box mb-30 lg-mb-0 offset-lg-1 position-relative">
+                    <img class="small-radius" src="img/david_drawing_nobg_big.png" alt="about">
+                    <div class="abt_art_box small-radius" data-cue="slideInUp">
+                        <h3>David Muñoz Jensen</h3>
+                        <p>Illustrator & Designer</p>
+                    </div><!-- /.abt_art_box -->
+
+                </div>
+                <!-- col-lg-4  -->
+
+
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </section>
+    <!-- .content -->
+    <!-- ======================================================================= -->
+    <!--                                ABOUT END                                -->
+    <!-- ======================================================================= -->
+
+<!-- ======================================================================= -->
+    <!--                          YOUTUBE VIDEO                        -->
+    <!-- ======================================================================= -->
+    <section class="content bg_section bg_three">
+        <div class="container bg_content">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <h2 class="rdn_title text-white">
+                        Take a look at my work - Durotan Comes to Life: A World of Warcraft Character Design Time-Lapse.
+                    </h2>
+                    <p class="rdn_subtext text-white">
+                        Embark on a creative journey through Azeroth with our latest time-lapse video, where we breathe life into Durotan, the legendary chieftain of the Frostwolf Clan from the World of Warcraft universe. Watch as we transform a blank canvas into a stunning portrait of one of Warcraft's most revered warriors. 🐺✨
+
+                    </p>
+                    <a class="bg-icon popup_video" href="https://youtu.be/jdx7EDwLoN0">
+                        <i class="ph ph-play"></i>
+                    </a>
+                </div>
+                <!-- col-lg-8 -->
+
+
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+        <div class="bg_mask"></div>
+    </section>
+    <!-- bg_section -->
+    <!-- ======================================================================= -->
+    <!--                           YOUTUBE VIDEO END                             -->
+    <!-- ======================================================================= -->
+
+
+    <!-- ======================================================================= -->
+    <!--                             SERVICES START                              -->
+    <!-- ======================================================================= -->
+    <section id="services" class="content bg-dotted-square">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 position-relative mb-30 mb-lg-0">
+                    <img class="small-radius2" src="img/about/david_profile_bk.jpg" alt="about">
+                    <img class="img_top" src="img/general/logo_blanco_shadow-01.png" alt="about">
+                </div><!-- /.col-lg-5 -->
+                <div class="col-lg-6 offset-lg-1">
+                    <p class="subt_text" data-cue="slideInUp">Creative Solutions.</p>
+                    <h2 class="rdn_title" data-cue="slideInUp" data-delay="200">
+                        Elevate your brand with my design services
+                    </h2>
+                    <p>
+                        I specialize in creating custom designs that effectively communicate your brand's values and vision, ensuring a distinctive and meaningful presence in the market. My work combines creativity, strategic planning, and careful consideration of every design element to perfectly match your brand's story. From logos and marketing materials to websites, I aim to deliver exceptional solutions that surpass your expectations. Let's collaborate to elevate your brand visually, establishing a new benchmark for excellence and advancing your business.
+                    </p>
+                    <div class="rdn_accordion" id="services_accordian">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#logo-design" aria-expanded="false" aria-controls="logo-design">
+                                    <i class="ph ph-bird"></i>
+                                    Logo Design
+                                </button>
+                            </h3>
+                            <div id="logo-design" class="accordion-collapse collapse"
+                                data-bs-parent="#services_accordian">
+                                <div class="accordion-body">
+                                    <p>
+                                        Logo design services are essential for crafting memorable, adaptable logos that embody a brand's values and appeal to its audience. Through a detailed process, these services ensure logos resonate with the brand and support instant recognition, leveraging professional expertise for impactful brand identity.
+                                        Investing in professional logo design services provides businesses with a strategic advantage, enabling them to build a strong brand identity that can significantly influence customer perceptions and loyalty. These services offer personalized attention to detail, ensuring that every aspect of the logo—from color schemes and typography to symbolism and scalability—is meticulously crafted to align with the brand's vision and objectives. With the right logo design partner, businesses can achieve a visually compelling logo that not only elevates their brand presence but also supports their marketing and branding efforts, ultimately contributing to their overall success and growth in the marketplace.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#print-design" aria-expanded="false" aria-controls="print-design">
+                                    <i class="ph ph-paw-print"></i>
+                                    Print Design
+                                </button>
+                            </h3>
+                            <div id="print-design" class="accordion-collapse collapse"
+                                data-bs-parent="#services_accordian">
+                                <div class="accordion-body">
+                                    <p>
+                                        Step into a world where creativity meets professionalism at David Muñoz Jensen's Design Studio. Here, I specialize in bringing your visions to life through a range of bespoke services tailored for both digital and print mediums. Whether you're in need of captivating illustrations that tell a story, eye-catching posters that grab attention, or innovative ads designed to elevate local businesses, I've got you covered. My commitment to excellence and passion for design ensures that each project is not just a task, but a masterpiece waiting to unfold. Dive into my portfolio to explore the endless possibilities and let me help you make a lasting impression in the digital and physical realms alike. Contact me today and take the first step towards transforming your ideas into reality.
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#branding-identity" aria-expanded="false"
+                                    aria-controls="branding-identity">
+                                    <i class="ph ph-pepper"></i>
+                                    Branding & identity
+                                </button>
+                            </h3>
+                            <div id="branding-identity" class="accordion-collapse collapse"
+                                data-bs-parent="#services_accordian">
+                                <div class="accordion-body">
+                                    <p>
+                                        Specializing in Branding & Identity services, I am dedicated to crafting bespoke solutions that not only define but elevate your brand's presence in the market. From logo design that resonates with your audience to comprehensive brand strategy that sets you apart from the competition, my approach is tailored to reflect your unique identity and values. My passion for design and commitment to excellence ensure that every element of your brand's identity is meticulously crafted, creating a cohesive and compelling narrative that speaks directly to your target audience. Explore my portfolio to witness how your brand can transcend the ordinary and embark on a journey of transformation. Visit me today to begin crafting an identity that truly represents the best of what you are.
+                                    </p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#web-design" aria-expanded="false" aria-controls="web-design">
+                                    <i class="ph ph-wall"></i>
+                                    Web Design
+                                </button>
+                            </h3>
+                            <div id="web-design" class="accordion-collapse collapse"
+                                data-bs-parent="#services_accordian">
+                                <div class="accordion-body">
+                                    <p>
+                                        I specialize in creating custom web designs that not only captivate your audience but also enhance user experience, ensuring that every visit to your site is memorable. From sleek, responsive layouts that adapt flawlessly across devices, to user interfaces that guide your visitors effortlessly towards action, my web design services are tailored to meet the unique needs of your online presence. My dedication to innovation, combined with a deep understanding of the latest web technologies, means that your website will not just be a space on the internet, but a dynamic extension of your brand's identity. Dive into my portfolio to see how I can transform your online footprint into a powerful tool for engagement and conversion. Visit me today to start crafting a website that truly stands out in the digital landscape.
+                                    </p>
+                                  
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ======================================================================= -->
+    <!--                              SERVICES END                               -->
+    <!-- ======================================================================= -->
+
+    <!-- ======================================================================= -->
+    <!--                               WORKS START                               -->
+    <!-- ======================================================================= -->
+    <section id="works" class="content dark-bg bg-circle-dash">
+        <div class="container">
+            <div class="row align-items-end mb-30">
+                <div class="col-lg-8">
+
+                    <p class="subt_text" data-cue="slideInUp">Your vision to Life.</p>
+                    <h2 class="rdn_title text-white mb-lg-0 mb-30" data-cue="slideInUp" data-delay="200">
+                        Unlocking creative brilliance for your branding, print and web.
+                    </h2>
+
+                </div><!-- /.col-lg-8 -->
+                <div class="col-lg-4">
+                    <p>
+                        Elevate your brand with creative brilliance. My portfolio highlights innovative designs for branding, print, and web, tailored to captivate your audience. Ready for standout designs?
+                    </p>
+                </div><!-- /.col-lg-4-->
+
+            </div><!-- /.row -->
+
+            <ul class="port_filter list-unstyled port_artist">
+
+                <li>
+                    <a class="big-radius active" href="#!" data-filter="*">All</a>
+                </li>
+                <li>
+                    <a class="big-radius" href="#!" data-filter=".illustration">Illustration</a>
+                </li>
+                <li>
+                    <a class="big-radius" href="#!" data-filter=".design">Design</a>
+                </li>
+                <li>
+                    <a class="big-radius" href="#!" data-filter=".branding">Branding</a>
+                </li>
+
+            </ul><!-- /.port_filter -->
+
+            <div class="row portfolio_body port_artist_body">
+                <div class="col-lg-4 col-md-6 mb-30 port_item port_one_high illustration">
+                    <a href="img/works/galery1.jpg" class="popup_img small-radius port_link">
+                        <img src="img/works/galery1.jpg" alt="works">
+                        <div class="works_detail">
+                            <h3 class="port_title">Custom Designs</h3>
+                            <p>Illustration</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- col-lg-4 -->
+
+                <div class="col-lg-4 col-md-6 mb-30 port_item illustration design">
+                    <a href="img/works/galery2.jpg" class="popup_img small-radius port_link">
+                        <img src="img/works/galery2.jpg" alt="works">
+                        <div class="works_detail">
+                            <h3 class="port_title">Custom Designs</h3>
+                            <p>Branding</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- col-lg-4 -->
+
+                <div class="col-lg-4 col-md-6 mb-30 port_item port_one_high branding">
+                    <a href="img/works/starwars_fanart.jpg" class="popup_img small-radius port_link">
+                        <img src="img/works/starwars_fanart.jpg" alt="works">
+                        <div class="works_detail">
+                            <h3 class="port_title">Fan Art</h3>
+                            <p>Drawings</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- col-lg-4 -->
+
+                <div class="col-lg-4 col-md-6 mb-30 port_item port_one_high design branding">
+                    <a href="img/works/akira_poster.jpg" class="popup_img small-radius port_link">
+                        <img src="img/works/akira_poster.jpg" alt="works">
+                        <div class="works_detail">
+                            <h3 class="port_title">Movie Posters</h3>
+                            <p>Design</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- col-lg-4 -->
+
+                <div class="col-lg-4 col-md-6 mb-30 port_item illustration">
+                    <a href="img/works/akira_hand.jpg" class="popup_img small-radius port_link">
+                        <img src="img/works/akira_hand.jpg" alt="works">
+                        <div class="works_detail">
+                            <h3 class="port_title">Handrawn</h3>
+                            <p>Illustration</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- col-lg-4 -->
+
+                <div class="col-lg-4 col-md-6 mb-30 port_item design">
+                    <a href="img/works/character_design2.jpg" class="popup_img small-radius port_link">
+                        <img src="img/works/character_design2.jpg" alt="works">
+                        <div class="works_detail">
+                            <h3 class="port_title">Hands Down</h3>
+                            <p>Illustration</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- col-lg-4 -->
+
+                <div class="col-lg-4 col-md-6 mb-30 port_item branding">
+                    <a href="img/works/character_design.jpg" class="popup_img small-radius port_link">
+                        <img src="img/works/character_design.jpg" alt="works">
+                        <div class="works_detail">
+                            <h3 class="port_title">Character Creation</h3>
+                            <p>Design</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- col-lg-4 -->
+
+                <div class="col-lg-8 col-md-6 mb-30 port_item illustration">
+                    <a href="img/works/storyboard_star_wars.jpg" class="popup_img small-radius port_link">
+                        <img src="img/works/storyboard_star_wars.jpg" alt="works">
+                        <div class="works_detail">
+                            <h3 class="port_title">Storyboard</h3>
+                            <p>Design</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- col-lg-8 -->
+            </div>
+            <!-- row -->
+        </div><!-- /.container -->
+    </section><!-- /#works.content -->
+    
+   
+
+    <!-- ======================================================================= -->
+    <!--                              CONTACT START                              -->
+    <!-- ======================================================================= -->
+    <section id="contact" class="content dark-bg bg-circle-dash">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 offset-lg-2">
+
+                    <!-- removed the map since I got feedback from focus groups in UX Design class, also changed the layout a little bit insted of two columns to just one -->
+
+                    <!-- <div class="map_content">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.179508991477!2d-75.69079412424246!3d45.42588263599524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce050155fbee6f%3A0x2aff72638ccd9c73!2s20%20Daly%20Ave%2C%20Ottawa%2C%20ON%20K1N%200C6!5e0!3m2!1ses!2sca!4v1707947687658!5m2!1ses!2sca"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>/.map_content -->
+
+
+
+                <!-- <div class="col-lg-2 offset-lg-4"></div> -->
+                    <p class="subt_text" data-cue="slideInUp">Let's collaborate.</p>
+                    <h2 class="rdn_title text-white" data-cue="slideInUp" data-delay="200">
+                        Get in touch and bring your vision to life.
+                    </h2>
+                    <p>
+                        Whether you're ready to discuss your design project, have a question, or simply want to say
+                        hello, I'm excited to connect with you. Let's embark on a creative journey together and create
+                        something extraordinary.
+                    </p>
+
+                    <form action="email.php" class="artist_form contact_form">
+                        <input type="text" name="name" placeholder="Your name...">
+
+                        <input type="email" name="email" placeholder="Your email...">
+
+                        <input type="tel" name="phone" placeholder="Your phone...">
+
+                        <textarea rows="4" placeholder="Your message..." name="message"></textarea>
+
+                        <div class="button-area">
+                            <button class="btn rdn_btn" type="submit">Send Message</button>
+                            <span class="contact_out_text"></span>
+                        </div>
+                    </form>
+                </div><!-- /.col-lg-6 -->
+
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section>
+
+    <!-- ======================================================================= -->
+    <!--                               CONTACT END                               -->
+    <!-- ======================================================================= -->
+
+    <!-- ======================================================================= -->
+    <!--                              FOOTER START                               -->
+    <!-- ======================================================================= -->
+    <footer class="footer">
+        <div class="container content text-center">
+            <h3>davidmuje@gmail.com</h3>
+
+            <ul class="list-unstyled br_social_list  d-flex justify-content-center mb-30">
+                <li>
+                    <a href="https://www.facebook.com/david.m.jensen3/"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/davidmuje3690/"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/david-munoz-28830b292/"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCnG947LC6z89m4nrlJvLexQ"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+            <p class="text-center">
+                Copyright&copy; 2024 - David Muñoz Jensen - Portfolio.
+            </p>
+        </div>
+        <!-- container -->
+    </footer>
+    <!-- footer -->
+    <!-- ======================================================================= -->
+    <!--                               FOOTER END                                -->
+    <!-- ======================================================================= -->
+    <div class="scrollToTopBtn small-radius">
+        <i class="ph ph-arrow-up"></i>
+    </div>
+  
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/glightbox.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/iTooltip.js"></script>
+    <script src="js/scrollCue.min.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/vanilla-counter.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
