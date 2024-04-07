@@ -40,18 +40,39 @@ This project not only enhanced my technical skills but also deepened my understa
 ## Images & Copyrights
 All images used in this portfolio are designed by me, David Muñoz Jensen, the artworks displayed are pieces that I made since the first semester, fall 2023, and I own the copyrights, also Nakamaprints [https://nakamaprints.com/](https://nakamaprints.com/) is my own brand and own the rights to use the arkwork.
 
+## Timelapse creation for the artwork used
+
+Scooby-Do - Batman Crossover: [https://youtu.be/bhogzQELEg0](https://youtu.be/bhogzQELEg0)
+One Punch Sketch: [https://youtu.be/lO9L7LPHtVo](https://youtu.be/lO9L7LPHtVo)
+One Piece Sketch: [https://youtu.be/UMYef3JiL6E](https://youtu.be/UMYef3JiL6E)
+Toyota 86: [https://youtu.be/sPz7x6-KGNg](https://youtu.be/sPz7x6-KGNg)
+Akira Hand Illustration: [https://youtu.be/Ty_aHa0z0TE](https://youtu.be/Ty_aHa0z0TE)
+Dungeons and Dragons design: [https://youtu.be/San96mnOJpI](https://youtu.be/San96mnOJpI)
+Datsun Design: [https://youtu.be/9l5W12Her78](https://youtu.be/9l5W12Her78)
+Cat Bus Design: [https://youtu.be/jJiHJwIcs-0](https://youtu.be/jJiHJwIcs-0)
+Batman Design: [https://youtu.be/6IXbRfSjjY8](https://youtu.be/6IXbRfSjjY8)
+90s Games: [https://youtu.be/e91sEXO9rVU](https://youtu.be/e91sEXO9rVU)
+Durotan Warcraft Design: [https://youtu.be/jdx7EDwLoN0](https://youtu.be/jdx7EDwLoN0)
+Super Metroid Design: [https://youtu.be/7mht9Q_E0oI](https://youtu.be/7mht9Q_E0oI)
+Snoopy Flying House: [https://youtu.be/-rnGPp-lH9E](https://youtu.be/-rnGPp-lH9E)
+Star Wars Design: [https://youtu.be/6Ag6yaxjfxo](https://youtu.be/6Ag6yaxjfxo)
+
 ## Scripts Used
 
-- **Bootstrap** - General use for styles: [https://getbootstrap.com/](https://getbootstrap.com/)
+- **Bootstrap Blob** - General use for styles (entire code): [https://github.com/twbs/bootstrap/blob/main](https://github.com/twbs/bootstrap/blob/main) 
 - **SwiperJS** - For some icons and gallery: [https://swiperjs.com/](https://swiperjs.com/)
 - **GLightbox** - For gallery: [https://biati-digital.github.io/glightbox/](https://biati-digital.github.io/glightbox/)
 - **Isotope** - For filter in gallery: [https://isotope.metafizzy.co/](https://isotope.metafizzy.co/)
 - **ScrollCue** - For scroll animations fade-in: [https://prjct-samwest.github.io/scrollCue/](https://prjct-samwest.github.io/scrollCue/)
 - **Improved Vanilla JavaScript Counter** - For animations number counter: [https://code-maven.com/improved-vanilla-javascript-counter](https://code-maven.com/improved-vanilla-javascript-counter)
 
+
+
 ## Fonts Used
 
 - **Phosphor Icons** - Icons: [https://phosphoricons.com](https://phosphoricons.com)
 - **Font Awesome** - Fonts: [https://fontawesome.com/](https://fontawesome.com/)
 - **Google Fonts** - Fonts (Inter & Poppins): [https://fonts.google.com/](https://fonts.google.com/)
+
+
 
