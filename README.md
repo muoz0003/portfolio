@@ -7,6 +7,13 @@ Welcome to the repository for my portfolio website. This document provides an ov
 ## Process
 My process for developing this portfolio began with a clear planning phase, I started by defing my niche, making a sitemap and a user jouney map followed by designing low-res and high-res wireframes in User Experience class, where I defined the structure and content I wanted to include. I opted for a minimalist design of one single page scrolling website that lets my work speak for itself without overwhelming visitors with too much information or design elements.
 
+## WIREFRAMES LOW & HIGH FIGMA
+Here is the link for my figma files: 
+
+1. **LOW RES WIREFRAMES** [https://www.figma.com/file/jsNpM2t2JvYnVyiBMeC4HP/Lo-Fi-Wireframes-David-Mu%C3%B1oz-Jensen?type=design&node-id=0%3A1&mode=design&t=iwfrWRfElK8OgOun-1](https://www.figma.com/file/jsNpM2t2JvYnVyiBMeC4HP/Lo-Fi-Wireframes-David-Mu%C3%B1oz-Jensen?type=design&node-id=0%3A1&mode=design&t=iwfrWRfElK8OgOun-1)
+
+2. **HI RES WIREFRAMES & INTERACTIVE PROTOTYPE** [https://www.figma.com/file/fm5LhqY0tfOkTPJJiLC4Ru/Interactive-Prototype-David-Munoz-Jensen?type=design&node-id=2071%3A1940&mode=design&t=iwfrWRfElK8OgOun-1](https://www.figma.com/file/fm5LhqY0tfOkTPJJiLC4Ru/Interactive-Prototype-David-Munoz-Jensen?type=design&node-id=2071%3A1940&mode=design&t=iwfrWRfElK8OgOun-1)
+
 1. **Planning**: Outlining the website's architecture, including the navigation and key sections (Home, About, Services, Works, Contact).
 2. **Design**: Creating wireframes and mockups in Figma, followed by graphic elements in Adobe Illustrator.
 3. **Development**: Coding the website using HTML, CSS, and JavaScript. I integrated a responsive design to ensure it works well on all devices.
@@ -42,20 +49,20 @@ All images used in this portfolio are designed by me, David Muñoz Jensen, the a
 
 ## Timelapse creation for the artwork used
 
-Scooby-Do - Batman Crossover: [https://youtu.be/bhogzQELEg0](https://youtu.be/bhogzQELEg0)
-One Punch Sketch: [https://youtu.be/lO9L7LPHtVo](https://youtu.be/lO9L7LPHtVo)
-One Piece Sketch: [https://youtu.be/UMYef3JiL6E](https://youtu.be/UMYef3JiL6E)
-Toyota 86: [https://youtu.be/sPz7x6-KGNg](https://youtu.be/sPz7x6-KGNg)
-Akira Hand Illustration: [https://youtu.be/Ty_aHa0z0TE](https://youtu.be/Ty_aHa0z0TE)
-Dungeons and Dragons design: [https://youtu.be/San96mnOJpI](https://youtu.be/San96mnOJpI)
-Datsun Design: [https://youtu.be/9l5W12Her78](https://youtu.be/9l5W12Her78)
-Cat Bus Design: [https://youtu.be/jJiHJwIcs-0](https://youtu.be/jJiHJwIcs-0)
-Batman Design: [https://youtu.be/6IXbRfSjjY8](https://youtu.be/6IXbRfSjjY8)
-90s Games: [https://youtu.be/e91sEXO9rVU](https://youtu.be/e91sEXO9rVU)
-Durotan Warcraft Design: [https://youtu.be/jdx7EDwLoN0](https://youtu.be/jdx7EDwLoN0)
-Super Metroid Design: [https://youtu.be/7mht9Q_E0oI](https://youtu.be/7mht9Q_E0oI)
-Snoopy Flying House: [https://youtu.be/-rnGPp-lH9E](https://youtu.be/-rnGPp-lH9E)
-Star Wars Design: [https://youtu.be/6Ag6yaxjfxo](https://youtu.be/6Ag6yaxjfxo)
+- **Scooby-Do - Batman Crossover:** [https://youtu.be/bhogzQELEg0](https://youtu.be/bhogzQELEg0)
+- **One Punch Sketch:** [https://youtu.be/lO9L7LPHtVo](https://youtu.be/lO9L7LPHtVo)
+- **One Piece Sketch:** [https://youtu.be/UMYef3JiL6E](https://youtu.be/UMYef3JiL6E)
+- **Toyota 86:** [https://youtu.be/sPz7x6-KGNg](https://youtu.be/sPz7x6-KGNg)
+- **Akira Hand Illustration:** [https://youtu.be/Ty_aHa0z0TE](https://youtu.be/Ty_aHa0z0TE)
+- **Dungeons and Dragons design:** [https://youtu.be/San96mnOJpI](https://youtu.be/San96mnOJpI)
+- **Datsun Design:** [https://youtu.be/9l5W12Her78](https://youtu.be/9l5W12Her78)
+- **Cat Bus Design:** [https://youtu.be/jJiHJwIcs-0](https://youtu.be/jJiHJwIcs-0)
+- **Batman Design:** [https://youtu.be/6IXbRfSjjY8](https://youtu.be/6IXbRfSjjY8)
+- **90s Games:** [https://youtu.be/e91sEXO9rVU](https://youtu.be/e91sEXO9rVU)
+- **Durotan Warcraft Design:** [https://youtu.be/jdx7EDwLoN0](https://youtu.be/jdx7EDwLoN0)
+- **Super Metroid Design:** [https://youtu.be/7mht9Q_E0oI](https://youtu.be/7mht9Q_E0oI)
+- **Snoopy Flying House:** [https://youtu.be/-rnGPp-lH9E](https://youtu.be/-rnGPp-lH9E)
+- **Star Wars Design:** [https://youtu.be/6Ag6yaxjfxo](https://youtu.be/6Ag6yaxjfxo)
 
 ## Scripts Used
 
