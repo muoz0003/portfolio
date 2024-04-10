@@ -206,7 +206,7 @@
   const defineJQueryPlugin = (plugin) => {
     onDOMContentLoaded(() => {
       const $ = getjQuery();
-      /* istanbul ignore if */
+  
       if ($) {
         const name = plugin.NAME;
         const JQUERY_NO_CONFLICT = $.fn[name];
@@ -412,7 +412,7 @@
   }
   function normalizeParameters(originalTypeEvent, handler, delegationFunction) {
     const isDelegated = typeof handler === "string";
-    // todo: tooltip passes `false` instead of selector, so we need to check
+    
     const callable = isDelegated
       ? delegationFunction
       : handler || delegationFunction;
