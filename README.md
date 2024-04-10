@@ -52,6 +52,7 @@ All images used in this portfolio are designed by me, David Muñoz Jensen, the a
 - **Scooby-Do - Batman Crossover:** [https://youtu.be/bhogzQELEg0](https://youtu.be/bhogzQELEg0)
 - **One Punch Sketch:** [https://youtu.be/lO9L7LPHtVo](https://youtu.be/lO9L7LPHtVo)
 - **One Piece Sketch:** [https://youtu.be/UMYef3JiL6E](https://youtu.be/UMYef3JiL6E)
+- **David Illustration Drawing:** [https://youtube.com/shorts/_NKFC0OjQ0U?feature=share](https://youtube.com/shorts/_NKFC0OjQ0U?feature=share)
 - **Toyota 86:** [https://youtu.be/sPz7x6-KGNg](https://youtu.be/sPz7x6-KGNg)
 - **Akira Hand Illustration:** [https://youtu.be/Ty_aHa0z0TE](https://youtu.be/Ty_aHa0z0TE)
 - **Dungeons and Dragons design:** [https://youtu.be/San96mnOJpI](https://youtu.be/San96mnOJpI)
@@ -63,6 +64,7 @@ All images used in this portfolio are designed by me, David Muñoz Jensen, the a
 - **Super Metroid Design:** [https://youtu.be/7mht9Q_E0oI](https://youtu.be/7mht9Q_E0oI)
 - **Snoopy Flying House:** [https://youtu.be/-rnGPp-lH9E](https://youtu.be/-rnGPp-lH9E)
 - **Star Wars Design:** [https://youtu.be/6Ag6yaxjfxo](https://youtu.be/6Ag6yaxjfxo)
+
 
 ## Scripts Used
 
