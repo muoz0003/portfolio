@@ -272,7 +272,6 @@
   /*                                   SLIDER                                   */
   /* ========================================================================== */
 
-  /*   HOMEPAGE SLIDER IN AGENCY & PERSONAL ARTIST STYLE */
   const home_one = new Swiper(".rdn_slider_bg", {
     speed: 800,
     loop: true,
@@ -290,7 +289,7 @@
       prevEl: ".rdn_slider_bg .prev_sl",
     },
   });
-  /*   SERVICE DARK SLIDER IN INDEX-DARK  */
+  
   const service_dark = new Swiper(".service_slide", {
     slidesPerView: 1,
     spaceBetween: 30,
@@ -314,7 +313,6 @@
     },
   });
 
-  /* SLIDER ON BLACK AND WHITE HOME SECTION */
   const home_black_slider = new Swiper(".home_black_slider", {
     speed: 800,
     loop: false,
@@ -331,7 +329,6 @@
     },
   });
 
-  /* SLIDER ON ANIMATION STUDIO HOME SECTION */
   const animation_slider = new Swiper(".animation_slider", {
     speed: 700,
     loop: true,
@@ -354,7 +351,6 @@
     },
   });
 
-  /* SLIDER IN SERVICES SECTION IN ANIMATION STYLE */
   const sv_image_slider = new Swiper(".sv_image_slider", {
     speed: 800,
     loop: true,
@@ -371,23 +367,8 @@
       },
     },
   });
-  /* TESTIMONIAL SLIDER */
-  const testi_slider = new Swiper(".testi_slider", {
-    speed: 800,
-    loop: false,
-    spaceBetween: 30,
-    slidesPerView: 1,
-    centeredSlides: false,
-    autoplay: {
-      delay: 6000,
-      disableOnInteraction: false,
-    },
-    breakpoints: {
-      991: {
-        slidesPerView: 2,
-      },
-    },
-  });
+  
+
 
   /* ========================================================================== */
   /*                          SCROLLCUE SCRIPT TRIGGER                          */
@@ -409,7 +390,7 @@
   const lightbox = GLightbox({
     touchNavigation: true,
     loop: true,
-    autoplayVideos: true,
+    autoplayVideos: false,
     selector: ".popup_video",
     zoomable: false,
     height: "auto",
